@@ -1,0 +1,42 @@
+// Body
+body {
+    // Reset Margin, Padding
+    margin: 0;
+    padding: 0;
+}
+
+// Image
+img {
+    // Remove Border
+    border: 0 none;
+
+    // Auto height
+    height: auto;
+
+    // Set line-height for inline width
+    line-height: 100%;
+
+    // no outline
+    outline: none;
+
+    // no text decoration
+    text-decoration: none;
+}
+
+a img {
+    // remove border
+    border: none;
+}
+
+// Table and column
+table, td {
+    // remove extra spacing
+    border-collapse: collapse;
+
+    // no padding
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}

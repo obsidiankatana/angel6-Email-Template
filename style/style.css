@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  font-family: "Quicksand";
+}
+
+.container {
+  font-family: sans-serif;
+  font-family: "Quicksand";
+  margin: 0;
+  padding: 0;
+  background-color: #0d9e73;
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 24px;
+  line-height: 1.4;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.wrapper {
+  display: block;
+  padding: 32px;
+}
+
+.content-item {
+  padding: 24px;
+}
+
+.page-behind-1, .page-behind-2 {
+  font-size: 0;
+  line-height: 0;
+}
+/*# sourceMappingURL=style.css.map */

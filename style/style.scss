@@ -1,0 +1,81 @@
+$background-color: #0d9e73;
+$content-background-color: white;
+$text-color: black;
+$button-background-color: #fbbd1f;
+$button-text-color: #833b20;
+
+$default-font-family: sans-serif;
+$web-font-family: 'Quicksand';
+$font-size-normal: 24px;
+$font-size-large: 48px;
+$line-height: 1.4;
+
+$base-size: 16px;
+
+$spacing-small: $base-size * 0.5;
+$spacing-normal: $base-size;
+$spacing-tiny: $base-size * 0.25;
+$spacing-large: $base-size * 1.5;
+$spacing-larger: $base-size * 2;
+$spacing-huge: $base-size * 3;
+
+// Overall Body
+body{
+    // round font
+    font-family: $default-font-family;
+    font-family: $web-font-family;
+}
+
+// top-most table inside body
+.container {
+    // Web-font if supported
+    font-family: $default-font-family;
+    font-family: $web-font-family;
+
+    // Reset margins and padding
+    margin: 0;
+    padding: 0;
+
+    // Background color
+    background-color: $background-color;
+
+    //Fill all available space
+    width: 100% !important;
+    height: 100% !important;
+
+    // Font size
+    font-size: $font-size-normal;
+
+    // line height 
+    line-height: $line-height;
+
+    // Block Explorer from adjusting font size
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+// Wraps content to wmail width
+.wrapper {
+    // Display as block
+    display: block;
+
+    // Padding
+    padding: $spacing-larger;
+}
+
+// General item with padding
+.content-item {
+    padding: $spacing-large;
+}
+
+// Solid Blocks of Color
+.page-behind-1, .page-behind-2 {
+    //Remove any whitespace
+    font-size: 0;
+    line-height: 0;
+
+    // The whitespace content itself
+    table > tbody > tr > td {
+
+    }
+}
